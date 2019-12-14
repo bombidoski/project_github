@@ -10,8 +10,9 @@ This project  creates a terminal which is quite interactive on the Terminal IDE,
 Software Requirements
 The python file "bikeshares.py" runs seamlessly on python version 3.0 and above. You'd require a text editor- Sublime,  Anaconda3 2019 and Git-2.24.0.2. Can run on both Windows and Mac OS
 
-### Files used
-Include the files used
+Files used
+The file "bikeshares.py" is used and the csv files -- chicago.csv, washington.csv, new_york_city.csv. although behind the working mechanism of this Project: 
+
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
