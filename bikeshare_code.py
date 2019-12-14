@@ -177,7 +177,7 @@ def user_stats(df):
     #set birth_year column as Int64 - Moved to tidy_data(df) function (removed since doesn't work for Washington)
     df['birth_year'] = df['birth_year'].astype(pd.Int64Dtype())
 
-    print('\nCalculating User Stats...\n')
+    print('\nNow calculating the user statistics...\n')
     start_time = time.time()
 
     # Display counts of user types - output convert to string to remove dtype fomatting.
