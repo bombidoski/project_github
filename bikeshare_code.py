@@ -92,7 +92,7 @@ def time_stats(df):
     #df.columns = df.columns.str.strip().str.lower().str.replace(' ', '_').str.replace('(', '').str.replace(')', '')
 
     print('\nCalculating The Most Frequent Times of Travel...\n')
-    start_time = time.time()
+    s_time = time.time()
 
     # display the most common month
 
@@ -108,10 +108,10 @@ def time_stats(df):
 
     # display the most common start hour
     print("\nThe most common time to hire a bike is: ")
-    mode_start_time = df.start_time.mode().iloc[0]
+    mode_start_time = df.s_time.mode().iloc[0]
     print(mode_start_time.strftime('%X'))
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print("\nThis took %s seconds." % (time.time() - s_time))
     print('-'*40)
 
 
