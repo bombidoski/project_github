@@ -192,7 +192,7 @@ def user_stats(df):
     print(df.groupby('gender').size().to_string())
 
     # Display earliest, most recent, and most common year of birth
-    print('\nEarliest year of birth:')
+    print('\nnow displaying earliest YOB')
     min_yob = df.birth_year.min()
     print(min_yob)
 
