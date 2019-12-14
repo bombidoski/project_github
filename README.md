@@ -14,6 +14,7 @@ Files used
 The file "bikeshares.py" is used and the csv files -- chicago.csv, washington.csv, new_york_city.csv. although behind the working mechanism of this Project: 
 
 
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Credits
+https://medium.com/@sauravbhagat_10426/how-to-upload-code-to-github-6db1c8ff56aa.
+
 
