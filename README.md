@@ -7,6 +7,8 @@ Bikeshare Github Project
  Description
 This project  creates a terminal which is quite interactive on the Terminal IDE, that receives input. Based on the provided input(s), the terminal may prompt the user with more questions for input. Thereafter, statistics based on the user- defined input(s)/criteria will be displayed
 
+Software Requirements
+The python file "bikeshares.py" runs seamlessly on python version 3.0 and above. You'd require a text editor- Sublime,  Anaconda3 2019 and Git-2.24.0.2. Can run on both Windows and Mac OS
 
 ### Files used
 Include the files used
